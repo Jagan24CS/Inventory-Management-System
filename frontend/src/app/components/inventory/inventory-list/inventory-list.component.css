@@ -1,0 +1,32 @@
+.container {
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+button {
+  margin-bottom: 20px;
+}
+
+mat-table {
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+mat-header-cell, mat-cell {
+  padding: 10px;
+  text-align: left;
+}
+
+.update-button {
+  background-color: yellow;
+  color: black;
+  margin-right: 10px;
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+}

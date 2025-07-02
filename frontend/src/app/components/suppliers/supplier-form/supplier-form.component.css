@@ -1,0 +1,34 @@
+.container {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.vertical-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.submit-button {
+  background-color: green;
+  color: white;
+}
+
+.submit-button:disabled {
+  background-color: #cccccc;
+  color: #666666;
+}

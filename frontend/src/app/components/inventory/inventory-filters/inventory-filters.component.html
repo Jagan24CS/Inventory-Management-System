@@ -1,0 +1,19 @@
+<div class="filters">
+  <mat-form-field appearance="fill">
+    <mat-label>Category</mat-label>
+    <mat-select [(value)]="selectedCategory" (selectionChange)="onCategoryChange()">
+      <mat-option *ngFor="let category of categories" [value]="category">
+        {{ category | titlecase }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Stock Level</mat-label>
+    <mat-select [(value)]="selectedStock" (selectionChange)="onStockChange()">
+      <mat-option *ngFor="let level of stockLevels" [value]="level">
+        {{ level | titlecase }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+</div>
