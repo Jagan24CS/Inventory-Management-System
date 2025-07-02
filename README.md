@@ -148,7 +148,3 @@ cd Invent
 | `POST` | `/api/suppliers`   | Create a new supplier  |
 | `PUT`  | `/api/suppliers/:id`| Update a supplier      |
 | `DELETE`| `/api/suppliers/:id`| Delete a supplier      |
-
-## License
-
-This project is licensed under the ISC License.
